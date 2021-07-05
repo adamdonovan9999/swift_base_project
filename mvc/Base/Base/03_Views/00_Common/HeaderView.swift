@@ -7,8 +7,16 @@
 
 import UIKit
 
+public enum HeaderBackType: String {
+  case None = "None"
+  case Back = "Back"
+  case Close = "Close"
+}
+
 @IBDesignable
 class HeaderView: UIView {
+  
+  public var backType: HeaderBackType = .None
   
   @IBInspectable
   public var title: String = "" {
@@ -31,7 +39,12 @@ class HeaderView: UIView {
     setup()
   }
   
-  open func addTarget(_ target: Any?, action: Selector, for controlEvents: UIControl.Event) {
+  public func setBackType(_ type: HeaderBackType) {
+    backType = type
+  }
+  
+  public func addTargetBack(_ target: Any?, action: Selector, for controlEvents: UIControl.Event) {
+    backButton.removeTarget(target, action: action, for: controlEvents)
     backButton.addTarget(target, action: action, for: controlEvents)
   }
   
@@ -51,10 +64,6 @@ class HeaderView: UIView {
     let view = nib.instantiate(withOwner: self, options: nil)[0] as! UIView
     
     return view
-  }
-  
-  @IBAction func backButtonTouch(_ sender: UIButton) {
-    
   }
   
 }

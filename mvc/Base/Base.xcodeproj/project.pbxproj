@@ -15,6 +15,11 @@
 		40617B3726930137002A66E6 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40617B3626930137002A66E6 /* BaseViewController.swift */; };
 		40617B4626930475002A66E6 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40617B4526930475002A66E6 /* HeaderView.swift */; };
 		40617B4926930486002A66E6 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 40617B4826930486002A66E6 /* HeaderView.xib */; };
+		40617B5026936C58002A66E6 /* Storyboard+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40617B4F26936C58002A66E6 /* Storyboard+Extension.swift */; };
+		40617B5326936D6C002A66E6 /* Starship.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40617B5226936D6C002A66E6 /* Starship.storyboard */; };
+		40617B5626936D8C002A66E6 /* StarshipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40617B5526936D8C002A66E6 /* StarshipViewController.swift */; };
+		40617B5926936DA9002A66E6 /* StarshipDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40617B5826936DA9002A66E6 /* StarshipDetailViewController.swift */; };
+		40617B6026937776002A66E6 /* StarshipPopupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40617B5F26937776002A66E6 /* StarshipPopupViewController.swift */; };
 		406EF01E2691FBE100769862 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406EF01D2691FBE100769862 /* AppDelegate.swift */; };
 		406EF0202691FBE100769862 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 406EF01F2691FBE100769862 /* SceneDelegate.swift */; };
 		406EF0252691FBE100769862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406EF0232691FBE100769862 /* Main.storyboard */; };
@@ -33,6 +38,11 @@
 		40617B3626930137002A66E6 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 		40617B4526930475002A66E6 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		40617B4826930486002A66E6 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		40617B4F26936C58002A66E6 /* Storyboard+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Storyboard+Extension.swift"; sourceTree = "<group>"; };
+		40617B5226936D6C002A66E6 /* Starship.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Starship.storyboard; sourceTree = "<group>"; };
+		40617B5526936D8C002A66E6 /* StarshipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipViewController.swift; sourceTree = "<group>"; };
+		40617B5826936DA9002A66E6 /* StarshipDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarshipDetailViewController.swift; sourceTree = "<group>"; };
+		40617B5F26937776002A66E6 /* StarshipPopupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarshipPopupViewController.swift; sourceTree = "<group>"; };
 		406EF01A2691FBE100769862 /* Base.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Base.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		406EF01D2691FBE100769862 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		406EF01F2691FBE100769862 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,17 +118,14 @@
 			path = 00_Common;
 			sourceTree = "<group>";
 		};
-		40617B2A269300D4002A66E6 /* 00_Common */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = 00_Common;
-			sourceTree = "<group>";
-		};
 		40617B312693011F002A66E6 /* 01_Starship */ = {
 			isa = PBXGroup;
 			children = (
 				40617B322693011F002A66E6 /* ViewController.swift */,
+				40617B5526936D8C002A66E6 /* StarshipViewController.swift */,
+				40617B5826936DA9002A66E6 /* StarshipDetailViewController.swift */,
+				40617B5F26937776002A66E6 /* StarshipPopupViewController.swift */,
+				40617B5226936D6C002A66E6 /* Starship.storyboard */,
 			);
 			path = 01_Starship;
 			sourceTree = "<group>";
@@ -130,6 +137,22 @@
 				40617B4826930486002A66E6 /* HeaderView.xib */,
 			);
 			path = 00_Common;
+			sourceTree = "<group>";
+		};
+		40617B4D26936C58002A66E6 /* 00_Common */ = {
+			isa = PBXGroup;
+			children = (
+				40617B4E26936C58002A66E6 /* 00_Extensions */,
+			);
+			path = 00_Common;
+			sourceTree = "<group>";
+		};
+		40617B4E26936C58002A66E6 /* 00_Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				40617B4F26936C58002A66E6 /* Storyboard+Extension.swift */,
+			);
+			path = 00_Extensions;
 			sourceTree = "<group>";
 		};
 		406EF0112691FBE100769862 = {
@@ -153,7 +176,7 @@
 		406EF01C2691FBE100769862 /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				40617B2A269300D4002A66E6 /* 00_Common */,
+				40617B4D26936C58002A66E6 /* 00_Common */,
 				40617B24269300D4002A66E6 /* 01_Models */,
 				40617B21269300D4002A66E6 /* 02_Services */,
 				40617B20269300D4002A66E6 /* 03_Views */,
@@ -238,6 +261,7 @@
 				40617B4926930486002A66E6 /* HeaderView.xib in Resources */,
 				406EF02A2691FBE400769862 /* LaunchScreen.storyboard in Resources */,
 				406EF0272691FBE400769862 /* Assets.xcassets in Resources */,
+				40617B5326936D6C002A66E6 /* Starship.storyboard in Resources */,
 				406EF0252691FBE100769862 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -291,14 +315,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40617B5626936D8C002A66E6 /* StarshipViewController.swift in Sources */,
 				40617B2E269300D4002A66E6 /* BaseModel.swift in Sources */,
+				40617B6026937776002A66E6 /* StarshipPopupViewController.swift in Sources */,
 				40617B2C269300D4002A66E6 /* BaseService.swift in Sources */,
 				40617B2D269300D4002A66E6 /* Starship.swift in Sources */,
 				406EF01E2691FBE100769862 /* AppDelegate.swift in Sources */,
+				40617B5926936DA9002A66E6 /* StarshipDetailViewController.swift in Sources */,
 				40617B332693011F002A66E6 /* ViewController.swift in Sources */,
 				40617B4626930475002A66E6 /* HeaderView.swift in Sources */,
 				40617B3726930137002A66E6 /* BaseViewController.swift in Sources */,
 				406EF0202691FBE100769862 /* SceneDelegate.swift in Sources */,
+				40617B5026936C58002A66E6 /* Storyboard+Extension.swift in Sources */,
 				40617B2B269300D4002A66E6 /* StarshipService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
