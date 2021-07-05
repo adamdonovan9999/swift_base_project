@@ -1,2 +1,2 @@
 # swift_base_project
-Swift base project MVC
+Swift base project
