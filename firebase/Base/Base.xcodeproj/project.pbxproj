@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		40168C352694C65C00F34966 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 40168C342694C65C00F34966 /* GoogleService-Info.plist */; };
 		40617B2B269300D4002A66E6 /* StarshipService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40617B22269300D4002A66E6 /* StarshipService.swift */; };
 		40617B2C269300D4002A66E6 /* BaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40617B23269300D4002A66E6 /* BaseService.swift */; };
 		40617B2D269300D4002A66E6 /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40617B25269300D4002A66E6 /* Starship.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		1FFBC32292424A42470C7AC2 /* Pods-Base.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Base.debug.xcconfig"; path = "Target Support Files/Pods-Base/Pods-Base.debug.xcconfig"; sourceTree = "<group>"; };
+		40168C342694C65C00F34966 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		40617B22269300D4002A66E6 /* StarshipService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StarshipService.swift; sourceTree = "<group>"; };
 		40617B23269300D4002A66E6 /* BaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseService.swift; sourceTree = "<group>"; };
 		40617B25269300D4002A66E6 /* Starship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				406EF0262691FBE400769862 /* Assets.xcassets */,
 				406EF0282691FBE400769862 /* LaunchScreen.storyboard */,
 				406EF02B2691FBE400769862 /* Info.plist */,
+				40168C342694C65C00F34966 /* GoogleService-Info.plist */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 				406EF0272691FBE400769862 /* Assets.xcassets in Resources */,
 				40617B5326936D6C002A66E6 /* Starship.storyboard in Resources */,
 				406EF0252691FBE100769862 /* Main.storyboard in Resources */,
+				40168C352694C65C00F34966 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,7 +485,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.adam.Base;
+				PRODUCT_BUNDLE_IDENTIFIER = com.9999.base;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -500,7 +504,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.adam.Base;
+				PRODUCT_BUNDLE_IDENTIFIER = com.9999.base;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

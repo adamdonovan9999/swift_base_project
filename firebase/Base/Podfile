@@ -9,5 +9,6 @@ target 'Base' do
   pod 'Alamofire'
   pod 'SwiftyJSON'
   pod 'ObjectMapper'
+  pod 'Firebase/Analytics'
 
 end
