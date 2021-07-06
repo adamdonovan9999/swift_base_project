@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SourceSansPro-Bold.ttf">
+            <string>SourceSansPro-Bold</string>
+        </array>
+        <array key="SourceSansPro-Regular.ttf">
+            <string>SourceSansPro-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="HeaderView" customModule="Base" customModuleProvider="target">
+            <connections>
+                <outlet property="backButton" destination="fLI-js-qaE" id="r4o-gc-Jva"/>
+                <outlet property="titleLabel" destination="xoY-gO-fFw" id="Q0j-AG-gxC"/>
+                <outlet property="view" destination="12e-FN-lIx" id="eqj-Sh-rdg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="12e-FN-lIx">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="45"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fLI-js-qaE">
+                    <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="44" id="51c-aD-saK"/>
+                        <constraint firstAttribute="width" constant="44" id="F8H-DQ-nFZ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="SourceSansPro-Regular" family="Source Sans Pro" pointSize="16"/>
+                    <inset key="imageEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" image="backIcon">
+                        <color key="titleColor" red="0.019607843140000001" green="0.36862745099999999" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xoY-gO-fFw">
+                    <rect key="frame" x="170.5" y="11.5" width="34" height="21"/>
+                    <fontDescription key="fontDescription" name="SourceSansPro-Bold" family="Source Sans Pro" pointSize="18"/>
+                    <color key="textColor" red="0.035294117649999998" green="0.1764705882" blue="0.34509803919999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bgx-CL-ajo" userLabel="SeparatorView">
+                    <rect key="frame" x="0.0" y="44" width="375" height="1"/>
+                    <color key="backgroundColor" red="0.84705882349999995" green="0.89019607840000003" blue="0.92549019610000005" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="acf-pR-PlL"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Bgx-CL-ajo" firstAttribute="top" secondItem="fLI-js-qaE" secondAttribute="bottom" id="2gf-Ik-zVZ"/>
+                <constraint firstItem="xoY-gO-fFw" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="fLI-js-qaE" secondAttribute="trailing" constant="8" id="9D9-MH-VBS"/>
+                <constraint firstItem="xoY-gO-fFw" firstAttribute="centerY" secondItem="fLI-js-qaE" secondAttribute="centerY" id="H5e-dc-Bxo"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="xoY-gO-fFw" secondAttribute="trailing" constant="8" id="R3r-2c-NBU"/>
+                <constraint firstItem="xoY-gO-fFw" firstAttribute="centerX" secondItem="12e-FN-lIx" secondAttribute="centerX" id="emj-iT-QZv"/>
+                <constraint firstItem="fLI-js-qaE" firstAttribute="leading" secondItem="12e-FN-lIx" secondAttribute="leading" id="igL-wf-MNr"/>
+                <constraint firstAttribute="trailing" secondItem="Bgx-CL-ajo" secondAttribute="trailing" id="n23-TE-MNp"/>
+                <constraint firstItem="fLI-js-qaE" firstAttribute="top" secondItem="12e-FN-lIx" secondAttribute="top" id="pLM-BD-5Hx"/>
+                <constraint firstItem="Bgx-CL-ajo" firstAttribute="leading" secondItem="12e-FN-lIx" secondAttribute="leading" id="t8B-cQ-8NO"/>
+            </constraints>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="110.5" y="-482"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="backIcon" width="11" height="17"/>
+    </resources>
+</document>
