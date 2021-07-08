@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Firebase
 
 class StarshipViewController: BaseViewController {
   
@@ -14,6 +15,7 @@ class StarshipViewController: BaseViewController {
     
     setupUI()
     testAPI()
+    setupFirebase()
   }
   
   // MARK: - UI
@@ -42,6 +44,18 @@ class StarshipViewController: BaseViewController {
     StarshipService.searchStartships("co") { (data) in
       print(data)
     }
+  }
+  
+  // MARK: - Firebase
+  
+  private func setupFirebase() {
+    let rootRef = Database.database().reference()
+    let childRef = Database.database().reference(withPath: "users")
+    let itemsRef = rootRef.child("users")
+    
+    print(rootRef.key)
+    print(childRef.key)
+    print(itemsRef.key)
   }
   
 }
