@@ -9,6 +9,7 @@ import UIKit
 
 fileprivate enum Storyboard : String {
   case main = "Main"
+  case login = "Login"
   case starship = "Starship"
 }
 
@@ -23,6 +24,10 @@ fileprivate extension UIStoryboard {
     return load(from: .main, identifier: identifier)
   }
   
+  static func loadFromLogin(_ identifier: String) -> UIViewController {
+    return load(from: .login, identifier: identifier)
+  }
+  
   static func loadFromStarship(_ identifier: String) -> UIViewController {
     return load(from: .starship, identifier: identifier)
   }
@@ -30,6 +35,10 @@ fileprivate extension UIStoryboard {
 }
 
 extension UIStoryboard {
+  
+  class func loadLoginController() -> UIViewController {
+    return loadFromLogin("LoginViewController")
+  }
   
   class func loadStarshipController() -> UIViewController {
     return loadFromStarship("StarshipViewController")

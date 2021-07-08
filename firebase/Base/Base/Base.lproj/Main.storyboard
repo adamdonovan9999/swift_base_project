@@ -19,7 +19,7 @@
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DHD-ot-PAB">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <connections>
-                                    <segue destination="CkO-oS-NBO" kind="embed" id="H5s-Td-Fdg"/>
+                                    <segue destination="u5b-YS-Pmf" kind="embed" id="7IT-aD-bZv"/>
                                 </connections>
                             </containerView>
                         </subviews>
@@ -45,6 +45,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="B72-ao-QbT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1784.7826086956522" y="81.696428571428569"/>
+        </scene>
+        <!--LoginViewController-->
+        <scene sceneID="wNt-9b-QJP">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="Login" storyboardName="Login" referencedIdentifier="LoginViewController" id="u5b-YS-Pmf" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g6B-i9-Zxr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1779" y="-46"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="q4H-5T-94a">
