@@ -21,13 +21,15 @@
 		406EF0252691FBE100769862 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406EF0232691FBE100769862 /* Main.storyboard */; };
 		406EF0272691FBE400769862 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 406EF0262691FBE400769862 /* Assets.xcassets */; };
 		406EF02A2691FBE400769862 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 406EF0282691FBE400769862 /* LaunchScreen.storyboard */; };
-		4089F2A9269CA00A004E9987 /* FirebaseDatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089F2A0269CA00A004E9987 /* FirebaseDatabaseManager.swift */; };
-		4089F2AA269CA00A004E9987 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089F2A2269CA00A004E9987 /* String+Extensions.swift */; };
-		4089F2AB269CA00A004E9987 /* NSDictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089F2A3269CA00A004E9987 /* NSDictionary+Extensions.swift */; };
-		4089F2AC269CA00A004E9987 /* Encodable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089F2A4269CA00A004E9987 /* Encodable+Extensions.swift */; };
-		4089F2AD269CA00A004E9987 /* NSArray+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089F2A5269CA00A004E9987 /* NSArray+Extensions.swift */; };
-		4089F2AE269CA00A004E9987 /* FirebaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089F2A7269CA00A004E9987 /* FirebaseError.swift */; };
-		4089F2AF269CA00A004E9987 /* FirebaseDatabaseEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089F2A8269CA00A004E9987 /* FirebaseDatabaseEndpoint.swift */; };
+		4089F2E0269CA284004E9987 /* FirebaseDatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089F2D3269CA284004E9987 /* FirebaseDatabaseManager.swift */; };
+		4089F2E1269CA284004E9987 /* FirebaseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089F2D5269CA284004E9987 /* FirebaseError.swift */; };
+		4089F2E2269CA284004E9987 /* FirebaseDatabaseEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089F2D6269CA284004E9987 /* FirebaseDatabaseEndpoint.swift */; };
+		4089F2E3269CA284004E9987 /* RestaurantEndpoints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089F2D9269CA284004E9987 /* RestaurantEndpoints.swift */; };
+		4089F2E4269CA284004E9987 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089F2DA269CA284004E9987 /* Restaurant.swift */; };
+		4089F2E5269CA284004E9987 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089F2DC269CA284004E9987 /* String+Extensions.swift */; };
+		4089F2E6269CA284004E9987 /* NSDictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089F2DD269CA284004E9987 /* NSDictionary+Extensions.swift */; };
+		4089F2E7269CA284004E9987 /* Encodable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089F2DE269CA284004E9987 /* Encodable+Extensions.swift */; };
+		4089F2E8269CA284004E9987 /* NSArray+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4089F2DF269CA284004E9987 /* NSArray+Extensions.swift */; };
 		40FD008726976EE1009C8E8A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FD008226976EE1009C8E8A /* ViewController.swift */; };
 		40FD008826976EE1009C8E8A /* Starship.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40FD008326976EE1009C8E8A /* Starship.storyboard */; };
 		40FD008926976EE1009C8E8A /* StarshipDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40FD008426976EE1009C8E8A /* StarshipDetailViewController.swift */; };
@@ -56,13 +58,15 @@
 		406EF0262691FBE400769862 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		406EF0292691FBE400769862 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		406EF02B2691FBE400769862 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4089F2A0269CA00A004E9987 /* FirebaseDatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseDatabaseManager.swift; sourceTree = "<group>"; };
-		4089F2A2269CA00A004E9987 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
-		4089F2A3269CA00A004E9987 /* NSDictionary+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+Extensions.swift"; sourceTree = "<group>"; };
-		4089F2A4269CA00A004E9987 /* Encodable+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+Extensions.swift"; sourceTree = "<group>"; };
-		4089F2A5269CA00A004E9987 /* NSArray+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSArray+Extensions.swift"; sourceTree = "<group>"; };
-		4089F2A7269CA00A004E9987 /* FirebaseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseError.swift; sourceTree = "<group>"; };
-		4089F2A8269CA00A004E9987 /* FirebaseDatabaseEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseDatabaseEndpoint.swift; sourceTree = "<group>"; };
+		4089F2D3269CA284004E9987 /* FirebaseDatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseDatabaseManager.swift; sourceTree = "<group>"; };
+		4089F2D5269CA284004E9987 /* FirebaseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseError.swift; sourceTree = "<group>"; };
+		4089F2D6269CA284004E9987 /* FirebaseDatabaseEndpoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseDatabaseEndpoint.swift; sourceTree = "<group>"; };
+		4089F2D9269CA284004E9987 /* RestaurantEndpoints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantEndpoints.swift; sourceTree = "<group>"; };
+		4089F2DA269CA284004E9987 /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		4089F2DC269CA284004E9987 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		4089F2DD269CA284004E9987 /* NSDictionary+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDictionary+Extensions.swift"; sourceTree = "<group>"; };
+		4089F2DE269CA284004E9987 /* Encodable+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+Extensions.swift"; sourceTree = "<group>"; };
+		4089F2DF269CA284004E9987 /* NSArray+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSArray+Extensions.swift"; sourceTree = "<group>"; };
 		40FD007E26976E53009C8E8A /* Base.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Base.entitlements; sourceTree = "<group>"; };
 		40FD008226976EE1009C8E8A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		40FD008326976EE1009C8E8A /* Starship.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Starship.storyboard; sourceTree = "<group>"; };
@@ -107,7 +111,6 @@
 		40617B21269300D4002A66E6 /* 02_Services */ = {
 			isa = PBXGroup;
 			children = (
-				4089F29E269CA00A004E9987 /* Firebase */,
 				40617B23269300D4002A66E6 /* BaseService.swift */,
 				40617B22269300D4002A66E6 /* StarshipService.swift */,
 			);
@@ -191,6 +194,7 @@
 				40617B4D26936C58002A66E6 /* 00_Common */,
 				40617B24269300D4002A66E6 /* 01_Models */,
 				40617B21269300D4002A66E6 /* 02_Services */,
+				4089F2D1269CA284004E9987 /* 02_ServicesFirebase */,
 				40617B20269300D4002A66E6 /* 03_Views */,
 				40617B27269300D4002A66E6 /* 04_ViewControllers */,
 				406EF01D2691FBE100769862 /* AppDelegate.swift */,
@@ -204,42 +208,60 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
-		4089F29E269CA00A004E9987 /* Firebase */ = {
+		4089F2D1269CA284004E9987 /* 02_ServicesFirebase */ = {
 			isa = PBXGroup;
 			children = (
-				4089F29F269CA00A004E9987 /* Database */,
-				4089F2A1269CA00A004E9987 /* Extensions */,
-				4089F2A6269CA00A004E9987 /* Model */,
+				4089F2DB269CA284004E9987 /* 00_Extensions */,
+				4089F2D4269CA284004E9987 /* 01_Model */,
+				4089F2D2269CA284004E9987 /* 02_Database */,
+				4089F2D7269CA284004E9987 /* 03_Modules */,
 			);
-			path = Firebase;
+			path = 02_ServicesFirebase;
 			sourceTree = "<group>";
 		};
-		4089F29F269CA00A004E9987 /* Database */ = {
+		4089F2D2269CA284004E9987 /* 02_Database */ = {
 			isa = PBXGroup;
 			children = (
-				4089F2A0269CA00A004E9987 /* FirebaseDatabaseManager.swift */,
+				4089F2D3269CA284004E9987 /* FirebaseDatabaseManager.swift */,
 			);
-			path = Database;
+			path = 02_Database;
 			sourceTree = "<group>";
 		};
-		4089F2A1269CA00A004E9987 /* Extensions */ = {
+		4089F2D4269CA284004E9987 /* 01_Model */ = {
 			isa = PBXGroup;
 			children = (
-				4089F2A2269CA00A004E9987 /* String+Extensions.swift */,
-				4089F2A3269CA00A004E9987 /* NSDictionary+Extensions.swift */,
-				4089F2A4269CA00A004E9987 /* Encodable+Extensions.swift */,
-				4089F2A5269CA00A004E9987 /* NSArray+Extensions.swift */,
+				4089F2D5269CA284004E9987 /* FirebaseError.swift */,
+				4089F2D6269CA284004E9987 /* FirebaseDatabaseEndpoint.swift */,
 			);
-			path = Extensions;
+			path = 01_Model;
 			sourceTree = "<group>";
 		};
-		4089F2A6269CA00A004E9987 /* Model */ = {
+		4089F2D7269CA284004E9987 /* 03_Modules */ = {
 			isa = PBXGroup;
 			children = (
-				4089F2A7269CA00A004E9987 /* FirebaseError.swift */,
-				4089F2A8269CA00A004E9987 /* FirebaseDatabaseEndpoint.swift */,
+				4089F2D8269CA284004E9987 /* RestaurantScene */,
 			);
-			path = Model;
+			path = 03_Modules;
+			sourceTree = "<group>";
+		};
+		4089F2D8269CA284004E9987 /* RestaurantScene */ = {
+			isa = PBXGroup;
+			children = (
+				4089F2D9269CA284004E9987 /* RestaurantEndpoints.swift */,
+				4089F2DA269CA284004E9987 /* Restaurant.swift */,
+			);
+			path = RestaurantScene;
+			sourceTree = "<group>";
+		};
+		4089F2DB269CA284004E9987 /* 00_Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4089F2DC269CA284004E9987 /* String+Extensions.swift */,
+				4089F2DD269CA284004E9987 /* NSDictionary+Extensions.swift */,
+				4089F2DE269CA284004E9987 /* Encodable+Extensions.swift */,
+				4089F2DF269CA284004E9987 /* NSArray+Extensions.swift */,
+			);
+			path = 00_Extensions;
 			sourceTree = "<group>";
 		};
 		40FD008026976EE1009C8E8A /* 01_Login */ = {
@@ -389,25 +411,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4089F2E5269CA284004E9987 /* String+Extensions.swift in Sources */,
 				40FD008E26976EFC009C8E8A /* LoginViewController.swift in Sources */,
 				40FD008A26976EE1009C8E8A /* StarshipViewController.swift in Sources */,
 				40FD008726976EE1009C8E8A /* ViewController.swift in Sources */,
 				40FD008B26976EE1009C8E8A /* StarshipPopupViewController.swift in Sources */,
-				4089F2AA269CA00A004E9987 /* String+Extensions.swift in Sources */,
 				40617B2E269300D4002A66E6 /* BaseModel.swift in Sources */,
 				40617B2C269300D4002A66E6 /* BaseService.swift in Sources */,
 				40617B2D269300D4002A66E6 /* Starship.swift in Sources */,
 				406EF01E2691FBE100769862 /* AppDelegate.swift in Sources */,
-				4089F2AE269CA00A004E9987 /* FirebaseError.swift in Sources */,
-				4089F2AF269CA00A004E9987 /* FirebaseDatabaseEndpoint.swift in Sources */,
-				4089F2AB269CA00A004E9987 /* NSDictionary+Extensions.swift in Sources */,
+				4089F2E2269CA284004E9987 /* FirebaseDatabaseEndpoint.swift in Sources */,
 				40617B4626930475002A66E6 /* HeaderView.swift in Sources */,
+				4089F2E1269CA284004E9987 /* FirebaseError.swift in Sources */,
+				4089F2E3269CA284004E9987 /* RestaurantEndpoints.swift in Sources */,
 				40617B3726930137002A66E6 /* BaseViewController.swift in Sources */,
+				4089F2E6269CA284004E9987 /* NSDictionary+Extensions.swift in Sources */,
 				406EF0202691FBE100769862 /* SceneDelegate.swift in Sources */,
-				4089F2AC269CA00A004E9987 /* Encodable+Extensions.swift in Sources */,
+				4089F2E4269CA284004E9987 /* Restaurant.swift in Sources */,
+				4089F2E8269CA284004E9987 /* NSArray+Extensions.swift in Sources */,
+				4089F2E7269CA284004E9987 /* Encodable+Extensions.swift in Sources */,
 				40617B5026936C58002A66E6 /* Storyboard+Extension.swift in Sources */,
-				4089F2AD269CA00A004E9987 /* NSArray+Extensions.swift in Sources */,
-				4089F2A9269CA00A004E9987 /* FirebaseDatabaseManager.swift in Sources */,
+				4089F2E0269CA284004E9987 /* FirebaseDatabaseManager.swift in Sources */,
 				40FD008926976EE1009C8E8A /* StarshipDetailViewController.swift in Sources */,
 				40617B2B269300D4002A66E6 /* StarshipService.swift in Sources */,
 			);

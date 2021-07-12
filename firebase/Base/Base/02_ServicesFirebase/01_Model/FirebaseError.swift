@@ -1,9 +1,8 @@
 //
 //  FirebaseError.swift
-//  QuizApp
+//  Base
 //
-//  Created by oguzparlak on 27.02.2020.
-//  Copyright © 2020 Oguz Parlak. All rights reserved.
+//  Created by Van Do on 7/12/21.
 //
 
 import Foundation
