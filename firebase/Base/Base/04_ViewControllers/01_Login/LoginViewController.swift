@@ -39,7 +39,11 @@ class LoginViewController: BaseViewController {
         self.present(alert, animated: true, completion: nil)
       } else {
         if let controller = UIStoryboard.loadStarshipController() as? StarshipViewController {
-          self.navigationController?.pushViewController(controller, animated: true)
+          let rootViewController = UINavigationController(rootViewController: controller)
+          rootViewController.isNavigationBarHidden = true
+          if let keyWindow = UIApplication.shared.windows.first(where: { $0.isKeyWindow }) {
+            keyWindow.rootViewController = rootViewController
+          }
         }
       }
     }
